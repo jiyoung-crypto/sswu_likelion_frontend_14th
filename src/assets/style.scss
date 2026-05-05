@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'NanumSquareNeo-Variable';
+}
+
+
+button{
+    cursor: pointer;
+}
+
+
+body{
+    background-color: #92CAFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+#Button_Wrap{
+    width: 400px;
+    height: 200px;
+    background-color: #FFFFFF;
+    border: solid 6px #92CAFF;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    a{
+    color: #49A1F1;
+    font-weight: 900;
+    font-size: 32px;
+    text-decoration:none;
+    }
+}
+
+
+#Write_Wrap{
+    width: 1000px;
+    height: 800px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: 6px #92CAFF;
+    padding: 40px 60px;
+    
+
+    input,
+    textarea {
+        outline: none;
+        font-family: 'NanumSquareNeo-Variable';
+        font-size: 20px;
+        color: #49A1F1;
+        width: 100%;
+        border: 4px solid #92CAFF;
+        padding: 20px 30px;
+        border-radius: 10px;
+        
+    }
+
+    ::placeholder{
+        color: #49A1F1;
+        font-family: 'NanumSquareNeo-Variable';
+    }
+
+    .title{
+            width: 100%;
+            margin-bottom: 30px;
+            height: 66px;
+        }
+    .content{
+            width: 100%;
+            resize: none;
+            margin-bottom: 30px;
+            height: 534px;
+        }
+
+    .button_group{
+        display: flex;
+        justify-content: space-between;
+        
+        button {
+            width: 259px;
+            height: 66px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .delete{
+            border: solid 4px #92CAFF;
+            background-color: #fff;
+            color: #49A1F1 ;
+        }
+        .write{
+            background-color: #92CAFF;
+            color: #fff;
+            border: none;
+        }
+    }
+}
+
+#Article_Wrap{
+    width: 1000px ;
+    height: 800px;
+    background-color: #fff;
+    border-radius : 20px;
+    padding: 40px 61px;
+
+    .article{
+        padding-bottom: 20px;
+
+        h1{
+            margin-top: 30px;
+            font-size: 32px;
+            font-weight: 700;
+            color: #49A1F1;
+            padding-bottom: 30px;
+            border-bottom: solid 4px #92CAFF;
+        }
+
+        p{
+            width: 700px;
+            margin-top:30px;
+            font-size: 20px;
+            font-weight: 700;
+            color: #49A1F1;
+         
+        }
+
+    }
+
+    .icon_group{
+        display: flex;
+        justify-content:right;
+        border-bottom: solid 4px #92CAFF;
+        margin-top: 140px;
+        padding-right: 50px;
+        padding-bottom: 17px;
+        
+
+        div {
+            display:flex;
+            align-items: center;
+
+            font-size: 30px;
+            font-weight: bold;
+            color: #49A1F1;
+            gap:7px;
+        }
+        .heart{
+            margin-left: 15px;
+        }
+
+        
+    }
+
+
+    .comment_input_section{
+        border-radius: 10px;
+        display: flex;
+        margin-top: 30px;
+        height: 65px;
+        gap: 20px;
+        
+        input {
+            
+            width: 744px;
+            height: 100%;
+            background-color: #fff;
+            color: #49A1F1;
+            border: solid 4px #92CAFF;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: 700;
+
+            &::placeholder {
+                color: #92CAFF;
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
+
+
+        button {
+            width: 137px;
+            height: 100%;
+            background-color: #92CAFF;
+            color: white;
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;
+        }
+        
+    }
+};
