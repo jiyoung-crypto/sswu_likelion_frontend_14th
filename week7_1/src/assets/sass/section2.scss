@@ -1,0 +1,26 @@
+.section2{
+    background-color: #FF7710;
+
+    padding-top: 141px;
+    padding-bottom: 182px;
+    
+    text-align: center;
+
+    .row{
+        display: flex;
+        align-items: center;       
+        justify-content: center;
+        height: 43px;
+    }
+    h2{
+        font-size: 18px;
+        height: 21px;
+        padding-bottom: 81px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    h1{
+        font-size: 36px;
+        
+        
+    }
+}
